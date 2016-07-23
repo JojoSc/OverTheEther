@@ -15,7 +15,7 @@ public class WifiServer: NSObject {
     public weak var delegate:WifiServerDelegate?
 
     /// The server's name that is visible on the network. Can't be changed, unless you start a new server.
-    private(set) var localName = "" // Is set in startServer(...)
+    public private(set) var localName = "" // Is set in startServer(...)
     private var netService:  NSNetService?
     private var asyncSocket: GCDAsyncSocket? // We need to keep a reference to the socket in startServer(...). Not used for anything else
 

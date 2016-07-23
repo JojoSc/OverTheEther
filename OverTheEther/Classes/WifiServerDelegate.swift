@@ -23,7 +23,7 @@ public protocol WifiServerDelegate : class{
 }
 
 /// Spare the user from implementing all delegate methods, but notify him if he doesn't
-extension WifiServerDelegate {
+public extension WifiServerDelegate {
     func didReceiveData(data:AnyObject?, fromClient client:GCDAsyncSocket) { DDLogVerbose("\(#function)") }
     func transferDidProgress(percent:Double) { DDLogVerbose("\(#function)") }
     func clientConnected(client:GCDAsyncSocket) { DDLogVerbose("\(#function)") }

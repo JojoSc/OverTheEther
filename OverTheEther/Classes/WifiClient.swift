@@ -37,7 +37,7 @@ public class WifiClient: NSObject {
     private var pingTimedOut                = true
 
     /// Returns false if the server is passcode protected
-    var isAllowedToSend:Bool {
+    public var isAllowedToSend:Bool {
         get {
             return (requiredPasscode == nil || serverPasscode == requiredPasscode)
         }
@@ -46,7 +46,7 @@ public class WifiClient: NSObject {
     // Basically, the client can't send anything before the handshake is finished
     private var requiredPasscode:String? = "BB54B02C-8A9A-4055-8F01-82D73BAA6B18"
     private var _serverPasscode:String?
-    var serverPasscode:String? {
+    public var serverPasscode:String? {
         get {
             return _serverPasscode
         }
@@ -60,7 +60,7 @@ public class WifiClient: NSObject {
     }
 
 
-    override init() {
+    override public init() {
         super.init()
         netServiceBrowser.delegate = self
         netServiceBrowser.includesPeerToPeer = true

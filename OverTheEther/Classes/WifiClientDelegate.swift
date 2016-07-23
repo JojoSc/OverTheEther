@@ -30,7 +30,7 @@ public protocol WifiClientDelegate : class {
 }
 
 /// Spare the user from implementing all delegate methods, but notify him if he doesn't
-extension WifiClientDelegate {
+public extension WifiClientDelegate {
     func discoveredListOfServers(servers:[String]) { DDLogVerbose("\(#function)") }
     func didReceiveObjectFromServer(object:AnyObject?) { DDLogVerbose("\(#function)") }
     func lostConnectionToServer(name:String) { DDLogVerbose("\(#function)") }

@@ -25,7 +25,7 @@ extension RangeReplaceableCollectionType where Generator.Element : Equatable {
 http://stackoverflow.com/questions/26086488/detecting-if-the-wifi-is-enabled-in-swift
 by Sam
 */
-func isInternetConnected() -> Bool {
+public func isInternetConnected() -> Bool {
 
     let rechability = SCNetworkReachabilityCreateWithName(kCFAllocatorDefault, "www.apple.com")
 
@@ -41,7 +41,7 @@ func isInternetConnected() -> Bool {
     return (isReachable && !needsConnection)
 }
 
-func isWifiConnected() -> Bool {
+public func isWifiConnected() -> Bool {
     let r = Reach()
     return r.connectionStatus().description == ReachabilityStatus.Online(ReachabilityType.WiFi).description
 }
