@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OverTheEther'
-  s.version          = '0.3.0'
-  s.summary          = 'Send data between devices'
+  s.version          = '0.3.1'
+  s.summary          = 'Send data between iOS devices'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-This library allows you to send any kind of data between iOS and macOS devices via Bluetooth or WiFi, without much hassle.
+This library allows you to send any kind of data between iOS devices via Bluetooth or WiFi, without much hassle.
                        DESC
 
   s.homepage         = 'https://github.com/JojoSc/OverTheEther'
