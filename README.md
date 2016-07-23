@@ -16,15 +16,13 @@ OverTheEther provides a simple way to programmatically send data from one iOS/OS
 
 ####Installing
 
-###### Via CocoaPods (recommended)
+##### Via CocoaPods (recommended)
 
 Simply add `pod 'OverTheEther'` to your Podfile
 
-###### Without CocoaPods
+##### Without CocoaPods
 
 Drag all files in the */OverTheEther/Classes* folder into your project. Then install *CocoaAsyncSocket* (e.g. via CocoaPods) and *CocoaLumberjack*. If you don't use CocoaLumberjack, simply go to the end of the *Helpers.swift* file and uncomment the block of function definitions to replace the log statements.
-
-######The next version will also be available via CocoaPods
 
 <br>
 
