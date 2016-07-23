@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OverTheEther'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = 'Send data between iOS devices'
 
 # This description is used to generate tags and improve search results.
