@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OverTheEther_Example' do
+  pod 'OverTheEther', :path => '../'
+
+  target 'OverTheEther_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
