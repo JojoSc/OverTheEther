@@ -1803,15 +1803,15 @@
 		F0083DBF84FC5B298EB5CC47DC79602A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2A5CF85060EC105158994D95EF500660 /* BaaSClient.swift */,
-				753A00966ECF62F666F7E280AA8A5956 /* Handshake.swift */,
-				429432D037C533B3876D58E436909485 /* Helpers.swift */,
-				2EF683C2175F2F6AB43A6FB9C8D9E581 /* ParseClient.swift */,
 				2665976793CE815CE6F61FEC339D1F33 /* WifiClient.swift */,
 				CB7A5AF0A0F0B6D392C3015F35DC8EDB /* WifiClientDelegate.swift */,
 				C1CD3B9141114695A4A4E242733FF935 /* WifiServer.swift */,
 				04B338597A190C0B4C77454B147C4F4C /* WifiServerDelegate.swift */,
+				753A00966ECF62F666F7E280AA8A5956 /* Handshake.swift */,
+				2A5CF85060EC105158994D95EF500660 /* BaaSClient.swift */,
+				2EF683C2175F2F6AB43A6FB9C8D9E581 /* ParseClient.swift */,
 				EB69F0AC1D43CF63005A8C2A /* Reach.swift */,
+				429432D037C533B3876D58E436909485 /* Helpers.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

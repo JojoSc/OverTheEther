@@ -9,7 +9,7 @@
 import Foundation
 import CocoaLumberjack
 
-protocol WifiClientDelegate : class {
+public protocol WifiClientDelegate : class {
 
     func discoveredListOfServers(servers:[String])
 

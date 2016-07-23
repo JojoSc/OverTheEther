@@ -10,7 +10,7 @@ import Foundation
 import CocoaAsyncSocket
 import CocoaLumberjack
 
-protocol WifiServerDelegate : class{
+public protocol WifiServerDelegate : class{
 
     func didReceiveData(data:AnyObject?, fromClient client:GCDAsyncSocket)
 

@@ -12,10 +12,10 @@ import CocoaAsyncSocket
 */
 public class WifiServer: NSObject {
 
+    public weak var delegate:WifiServerDelegate?
+
     /// The server's name that is visible on the network. Can't be changed, unless you start a new server.
     private(set) var localName = "" // Is set in startServer(...)
-    weak var delegate:WifiServerDelegate?
-
     private var netService:  NSNetService?
     private var asyncSocket: GCDAsyncSocket? // We need to keep a reference to the socket in startServer(...). Not used for anything else
 
@@ -28,7 +28,7 @@ public class WifiServer: NSObject {
 
     /** If not nil, requires the client to have the same passcode
         in order to send objects */
-    var passcode:String? = nil // Default: allow sending files
+    public var passcode:String? = nil // Default: allow sending files
 
 
     
@@ -40,7 +40,7 @@ public class WifiServer: NSObject {
     - parameter name: The name that other devices on the network will see
     - parameter infoDict: Here you can provide additional information, e.g. about the type of service.
     */
-    func startServer(name serverName:String, infoDict:[String:NSData]?) {
+    public func startServer(name serverName:String, infoDict:[String:NSData]?) {
 
         DDLogInfo("Starting server")
         
@@ -67,7 +67,7 @@ public class WifiServer: NSObject {
     }
 
     /// Experimental
-    func stopServer() {
+    public func stopServer() {
         netService?.stop()
         netService = nil
         asyncSocket?.disconnect()
@@ -77,14 +77,14 @@ public class WifiServer: NSObject {
 
     /** Is the server active?
      */
-    func isRunning() -> Bool {
+    public func isRunning() -> Bool {
         return isHosting && asyncSocket != nil && netService != nil
     }
 
 
     /** Send an object to all connected clients
     */
-    func broadCastObject(object:NSCoding) {
+    public func broadCastObject(object:NSCoding) {
         let data = NSKeyedArchiver.archivedDataWithRootObject(object)
         broadCastData(data)
     }
@@ -92,7 +92,7 @@ public class WifiServer: NSObject {
 
     /** Send an object only to a single client
     */
-    func sendObject(object:NSCoding, toClient client:GCDAsyncSocket) {
+    public func sendObject(object:NSCoding, toClient client:GCDAsyncSocket) {
         let data = NSKeyedArchiver.archivedDataWithRootObject(object)
         sendData(data, toClient:client)
     }
@@ -101,7 +101,7 @@ public class WifiServer: NSObject {
     /**
     Experimental
     */
-    func rename(to newName:String) {
+    public func rename(to newName:String) {
         stopServer()
         let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(1 * Double(NSEC_PER_SEC)))
         let s = self

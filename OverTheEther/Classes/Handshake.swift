@@ -9,7 +9,7 @@
 import Foundation
 
 
-@objc enum Reason : Int {
+@objc public enum Reason : Int {
     case RequiresPasscode = 2
     case Other            = 3
 }

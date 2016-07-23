@@ -17,7 +17,7 @@ public class WifiClient: NSObject {
     static let _k_headerTag = 60126;
     static let _k_dataTag = 55834;
 
-    weak var delegate:WifiClientDelegate?
+    public weak var delegate:WifiClientDelegate?
 
     private var netServiceBrowser = NSNetServiceBrowser()
     private var serverService:NSNetService?
@@ -73,7 +73,7 @@ public class WifiClient: NSObject {
 
     /** Send an object to the currently connected server
     */
-    func sendObject(object:NSCoding) {
+    public func sendObject(object:NSCoding) {
 
         if isAllowedToSend || object is HandShake {
             DDLogVerbose("Sending an object...")
@@ -88,7 +88,7 @@ public class WifiClient: NSObject {
     /** Find all nearby servers in the same network. The delegate will be notified
         with all servers that were discovered.
      */
-    func discoverServers() {
+    public func discoverServers() {
         DDLogInfo("Discover servers...")
         serversFound.removeAll()
         netServiceBrowser.stop()
@@ -99,7 +99,7 @@ public class WifiClient: NSObject {
     /** Stop discovering, so no more nearby servers will be found. 
         The delegate won't receive any new notifications.
      */
-    func stopDiscoveringServers() {
+    public func stopDiscoveringServers() {
         netServiceBrowser.stop()
     }
 
@@ -107,7 +107,7 @@ public class WifiClient: NSObject {
     /** Connect to a server in the same network by name. If there is more than one
         a random one will be chosen. If you are already connected, you need to disconnect first.
     */
-    func connectToServer(name:String) {
+    public func connectToServer(name:String) {
 
         DDLogInfo("Connecting to server '\(name)'...")
         let correct = serversFound.filter({server in (server.name == name)})
@@ -124,7 +124,7 @@ public class WifiClient: NSObject {
 
     /** Disconnect from the current server
     */
-    func disconnect() {
+    public func disconnect() {
         asyncSocket?.disconnect()
         asyncSocket?.delegate = nil
         asyncSocket = nil
@@ -137,7 +137,7 @@ public class WifiClient: NSObject {
         be notified, as soon as the server responds
     - parameter timeout: Number of seconds before the server is considered unresponsive
      */
-    func pingConnectedServer(timeout:Double) {
+    public func pingConnectedServer(timeout:Double) {
         pingTimedOut = false
         sendObject(WifiClient._k_pingPacket)
         _ = NSTimer.scheduledTimerWithTimeInterval(timeout, target: self, selector: #selector(WifiClient.pingTimedOut), userInfo: nil, repeats: false)
@@ -147,7 +147,7 @@ public class WifiClient: NSObject {
     /** Get additional info about the service (if the server decided to provide it)
     - returns: The TXT record of the underlying NSNetService or nil (if the service is nil)
     */
-    func getServiceInfo() -> [String:NSData]? {
+    public func getServiceInfo() -> [String:NSData]? {
         guard let service = serverService
             else { DDLogError("ServerService is nil") ; return nil }
 
@@ -160,7 +160,7 @@ public class WifiClient: NSObject {
 
     /** Returns true if the Client has an active connection to a server. This doesn't necessarily mean, that the client can send data to the server (passcode...).
      */
-    func isConnected() -> Bool {
+    public func isConnected() -> Bool {
         if let socket = asyncSocket {
             return socket.isConnected
         }
