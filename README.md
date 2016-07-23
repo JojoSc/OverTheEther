@@ -18,7 +18,7 @@ OverTheEther provides a simple way to programmatically send data from one iOS de
 
 ##### Via CocoaPods (recommended)
 
-Simply add `pod 'OverTheEther'` to your Podfile
+Simply add `pod 'OverTheEther'` to your Podfile and run `pod install`
 
 ##### Without CocoaPods
 
