@@ -6,7 +6,6 @@
 //  Copyright © 2016 Johannes Schreiber. All rights reserved.
 //
 
-import Foundation
 import CocoaAsyncSocket
 import CocoaLumberjack
 

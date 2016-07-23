@@ -360,8 +360,9 @@ public class WifiClient: NSObject {
 
 
 
+// MARK: - GCDAsyncSocket Delegate methods
+
 extension WifiClient : GCDAsyncSocketDelegate {
-    // MARK: - GCDAsyncSocket Delegate methods
 
     public func socket(sender:GCDAsyncSocket, didReadData data:NSData, withTag tag:Int) {
 

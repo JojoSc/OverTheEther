@@ -1,7 +1,7 @@
 #OverTheEther
 
 ---
-[![Pod](https://img.shields.io/badge/pod-v0.3.1-green.svg)](https://http://cocoapods.org/pods/OverTheEther)
+[![Pod](https://img.shields.io/badge/pod-v0.3.1-green.svg)](https://cocoapods.org/pods/OverTheEther)
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgray.svg)](https://github.com/JojoSc/OverTheEther)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://en.wikipedia.org/wiki/MIT_License)
 
@@ -9,16 +9,20 @@
 
 ###What is this?
 
-OverTheEther provides a simple way to programmatically send data from one iOS/OSX device to another one (or more) in the same wifi network. Be it short text messages/strings, objects of custom classes or large image files. OTE uses CocoaAsyncSocket to send data via TCP. One device is configured as the server and others can connect to it as clients. A client can only be connected to one server but a server can be connected to as many clients as there are free ports. You just tell it which device to connect to and send whatever you want.
+OverTheEther provides a simple way to programmatically send data from one iOS device to another one (or more) nearby. Be it short text messages, objects of custom classes or large image files. OTE uses CocoaAsyncSocket to send data via TCP. One device is configured as the server and others can connect to it as clients. A client can only be connected to one server but a server can be connected to as many clients as there are free ports. You just tell it which device to connect to and send whatever you want.
 
 
 <br>
 
-####Installing
+###Installing
+
+##### Via CocoaPods (recommended)
+
+Simply add `pod 'OverTheEther'` to your Podfile and run `pod install`
+
+##### Without CocoaPods
 
 Drag all files in the */OverTheEther/Classes* folder into your project. Then install *CocoaAsyncSocket* (e.g. via CocoaPods) and *CocoaLumberjack*. If you don't use CocoaLumberjack, simply go to the end of the *Helpers.swift* file and uncomment the block of function definitions to replace the log statements.
-
-######The next version will also be available via CocoaPods
 
 <br>
 
