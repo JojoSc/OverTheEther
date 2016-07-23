@@ -9,7 +9,7 @@
 
 ###What is this?
 
-OverTheEther provides a simple way to programmatically send data from one iOS/OSX device to another one (or more) in the same wifi network. Be it short text messages/strings, objects of custom classes or large image files. OTE uses CocoaAsyncSocket to send data via TCP. One device is configured as the server and others can connect to it as clients. A client can only be connected to one server but a server can be connected to as many clients as there are free ports. You just tell it which device to connect to and send whatever you want.
+OverTheEther provides a simple way to programmatically send data from one iOS device to another one (or more) nearby. Be it short text messages, objects of custom classes or large image files. OTE uses CocoaAsyncSocket to send data via TCP. One device is configured as the server and others can connect to it as clients. A client can only be connected to one server but a server can be connected to as many clients as there are free ports. You just tell it which device to connect to and send whatever you want.
 
 
 <br>
