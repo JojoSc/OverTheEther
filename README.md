@@ -1,7 +1,7 @@
 #OverTheEther
 
 ---
-[![Pod](https://img.shields.io/badge/pod-v0.3.1-green.svg)](cocoapods.org/pods/OverTheEther)
+[![Pod](https://img.shields.io/badge/pod-v0.3.1-green.svg)](https://cocoapods.org/pods/OverTheEther)
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgray.svg)](https://github.com/JojoSc/OverTheEther)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://en.wikipedia.org/wiki/MIT_License)
 
