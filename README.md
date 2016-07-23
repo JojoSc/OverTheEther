@@ -14,7 +14,7 @@ OverTheEther provides a simple way to programmatically send data from one iOS/OS
 
 <br>
 
-####Installing
+###Installing
 
 ##### Via CocoaPods (recommended)
 
