@@ -1,0 +1,16 @@
+PODS:
+  - OverTheEther (0.1.0)
+
+DEPENDENCIES:
+  - OverTheEther (from `../`)
+
+EXTERNAL SOURCES:
+  OverTheEther:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OverTheEther: 87c7d9d18f611a9253d0e29da1bce55c730c4cc8
+
+PODFILE CHECKSUM: 2912d2dd17e6f6f1cf67c5962659c297504abde3
+
+COCOAPODS: 1.1.0.beta.1

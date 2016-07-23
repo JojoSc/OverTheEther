@@ -1,0 +1,22 @@
+{
+  "name": "OverTheEther",
+  "version": "0.1.0",
+  "summary": "A short description of OverTheEther.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/OverTheEther",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JojoSc": "mail@jsap.net"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/OverTheEther.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OverTheEther/Classes/**/*"
+}

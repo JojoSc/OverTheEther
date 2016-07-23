@@ -1,0 +1,6 @@
+framework module OverTheEther {
+  umbrella header "OverTheEther-umbrella.h"
+
+  export *
+  module * { export * }
+}

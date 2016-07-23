@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089F877E840C370F1C85BCA05042A411 /* Pods-OverTheEther_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 587C14A54866DF22A242D1622099EB7D /* Pods-OverTheEther_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2C2DFC597981C4774B3F578F84525D /* Pods-OverTheEther_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C394FCA81E2257231FAA6939DE7C4629 /* Pods-OverTheEther_Tests-dummy.m */; };
+		4869474787E0E491469B84A88E21B54B /* OverTheEther-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8539D9D9F45EF9D0B25C61C1AAE51B39 /* OverTheEther-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		904ADB7D57385F118B7A72EA13186DA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9E9839BA082204CED63300EB1ECF4B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A9DCB71F5ACF08B6C0F57A453677271D /* OverTheEther-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D638BABAE751E42F69DAC56A353B97F0 /* OverTheEther-dummy.m */; };
+		C093CBC16408E0985DCB5C1D31F48058 /* Pods-OverTheEther_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BEE9EAE17B5BB5D78213AC484D6CE8 /* Pods-OverTheEther_Example-dummy.m */; };
+		D36373E4B1F06801DE98D52AA49D8084 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF42053B6AF85C47815F080A5C524E32 /* ReplaceMe.swift */; };
+		E13C6A07F4E4A6EBE07568FE6583D73D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F810BAB9710A7FF72188ADF569B7BCBE /* Pods-OverTheEther_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA27B31A694CF92F5AB28AB0D1B8D66 /* Pods-OverTheEther_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B038F03BA31CD5AF462C394CDD59E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B512019919F42B3CCC8A901EED7F4EF4;
+			remoteInfo = OverTheEther;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007B3639F1BB1B2CD887CC0FAE3B2889 /* Pods-OverTheEther_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OverTheEther_Tests-resources.sh"; sourceTree = "<group>"; };
+		02BF3ED214B882E50548D70DF0C45240 /* Pods-OverTheEther_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OverTheEther_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03B5BCE344D9485F959A6CD9D5BC2024 /* Pods-OverTheEther_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OverTheEther_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		06A333FF517BF4635C481F44E6CD5F99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3C2E327579CA62E21BCC70A5C7799B /* Pods-OverTheEther_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OverTheEther_Example-resources.sh"; sourceTree = "<group>"; };
+		0F8B20EF502C7D88D614D789929231DC /* Pods-OverTheEther_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverTheEther_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1458A7C36423B86FE261B09E0ADCEE36 /* Pods-OverTheEther_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OverTheEther_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2ACBC53861593C19520E0424EFFDB112 /* OverTheEther.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OverTheEther.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEB689CE9CDEC0C5691A27F51B563FA /* Pods-OverTheEther_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OverTheEther_Example.modulemap"; sourceTree = "<group>"; };
+		434A9CF2402FF63E629366903E70E5B8 /* Pods-OverTheEther_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverTheEther_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4398124D5300DF21D4FB9B2DF130D850 /* Pods_OverTheEther_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OverTheEther_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		466E3F1B8D8719257615F2B585534E72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA657A81D7F7D78089D77DD53926B37 /* Pods-OverTheEther_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OverTheEther_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		517B9753FA109B04908A40254192F051 /* Pods_OverTheEther_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OverTheEther_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		587C14A54866DF22A242D1622099EB7D /* Pods-OverTheEther_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OverTheEther_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6DEF7B8F7B92FE590D939FF88D46B37E /* Pods-OverTheEther_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverTheEther_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		804D543ABF287680A010303B34949F4A /* OverTheEther.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OverTheEther.modulemap; sourceTree = "<group>"; };
+		8539D9D9F45EF9D0B25C61C1AAE51B39 /* OverTheEther-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OverTheEther-umbrella.h"; sourceTree = "<group>"; };
+		91BEE9EAE17B5BB5D78213AC484D6CE8 /* Pods-OverTheEther_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OverTheEther_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFB946AE765955AFDD0790C594DFE18F /* Pods-OverTheEther_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OverTheEther_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B5FE41FD00BAC175443471928E86A68A /* Pods-OverTheEther_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OverTheEther_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C394FCA81E2257231FAA6939DE7C4629 /* Pods-OverTheEther_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OverTheEther_Tests-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1507B94FD4782913EB652EDAAE347A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D638BABAE751E42F69DAC56A353B97F0 /* OverTheEther-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OverTheEther-dummy.m"; sourceTree = "<group>"; };
+		D860F866F82C570510112ADB0FD7C00C /* Pods-OverTheEther_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OverTheEther_Tests.modulemap"; sourceTree = "<group>"; };
+		DC9DD34E45F27C2A4FAD985003678B49 /* OverTheEther.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OverTheEther.xcconfig; sourceTree = "<group>"; };
+		EDA27B31A694CF92F5AB28AB0D1B8D66 /* Pods-OverTheEther_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OverTheEther_Example-umbrella.h"; sourceTree = "<group>"; };
+		F274C214944F41C663B97BC45FC72BF8 /* OverTheEther-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OverTheEther-prefix.pch"; sourceTree = "<group>"; };
+		F9BC41A2B12625476EDED0594C0C6C2D /* Pods-OverTheEther_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OverTheEther_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FF42053B6AF85C47815F080A5C524E32 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570EEFE2BEC2C21C8CF09513B29E0FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904ADB7D57385F118B7A72EA13186DA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703762C1D0566AA276BA04AC8613B3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13C6A07F4E4A6EBE07568FE6583D73D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC020E259C9EFB4C48FAB528A9612657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9839BA082204CED63300EB1ECF4B27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A2BA8B56B40A20D9732DADE5E3316C /* Pods-OverTheEther_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D1507B94FD4782913EB652EDAAE347A9 /* Info.plist */,
+				D860F866F82C570510112ADB0FD7C00C /* Pods-OverTheEther_Tests.modulemap */,
+				1458A7C36423B86FE261B09E0ADCEE36 /* Pods-OverTheEther_Tests-acknowledgements.markdown */,
+				03B5BCE344D9485F959A6CD9D5BC2024 /* Pods-OverTheEther_Tests-acknowledgements.plist */,
+				C394FCA81E2257231FAA6939DE7C4629 /* Pods-OverTheEther_Tests-dummy.m */,
+				4BA657A81D7F7D78089D77DD53926B37 /* Pods-OverTheEther_Tests-frameworks.sh */,
+				007B3639F1BB1B2CD887CC0FAE3B2889 /* Pods-OverTheEther_Tests-resources.sh */,
+				587C14A54866DF22A242D1622099EB7D /* Pods-OverTheEther_Tests-umbrella.h */,
+				0F8B20EF502C7D88D614D789929231DC /* Pods-OverTheEther_Tests.debug.xcconfig */,
+				F9BC41A2B12625476EDED0594C0C6C2D /* Pods-OverTheEther_Tests.release.xcconfig */,
+			);
+			name = "Pods-OverTheEther_Tests";
+			path = "Target Support Files/Pods-OverTheEther_Tests";
+			sourceTree = "<group>";
+		};
+		1733AA456CAC82EF17D80D861E0D5614 /* OverTheEther */ = {
+			isa = PBXGroup;
+			children = (
+				C605E209C8938EE6EF797E5515FDAC7B /* OverTheEther */,
+				C8EAA501024DA3D92077716615312C1A /* Support Files */,
+			);
+			name = OverTheEther;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3860D13D737934E49C8C98C589BD650B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ACBC53861593C19520E0424EFFDB112 /* OverTheEther.framework */,
+				517B9753FA109B04908A40254192F051 /* Pods_OverTheEther_Example.framework */,
+				4398124D5300DF21D4FB9B2DF130D850 /* Pods_OverTheEther_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		412AF9596C86182641BFC7075EE134A0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3C4FEA0E36CB081987B9D4DDB387461 /* Pods-OverTheEther_Example */,
+				02A2BA8B56B40A20D9732DADE5E3316C /* Pods-OverTheEther_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		414DE111120D59AC7F74F44FB7CC7D9B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF42053B6AF85C47815F080A5C524E32 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D2DFD969C64C2AA6D0A278FBDEC706B4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3860D13D737934E49C8C98C589BD650B /* Products */,
+				412AF9596C86182641BFC7075EE134A0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C605E209C8938EE6EF797E5515FDAC7B /* OverTheEther */ = {
+			isa = PBXGroup;
+			children = (
+				414DE111120D59AC7F74F44FB7CC7D9B /* Classes */,
+			);
+			path = OverTheEther;
+			sourceTree = "<group>";
+		};
+		C8EAA501024DA3D92077716615312C1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				466E3F1B8D8719257615F2B585534E72 /* Info.plist */,
+				804D543ABF287680A010303B34949F4A /* OverTheEther.modulemap */,
+				DC9DD34E45F27C2A4FAD985003678B49 /* OverTheEther.xcconfig */,
+				D638BABAE751E42F69DAC56A353B97F0 /* OverTheEther-dummy.m */,
+				F274C214944F41C663B97BC45FC72BF8 /* OverTheEther-prefix.pch */,
+				8539D9D9F45EF9D0B25C61C1AAE51B39 /* OverTheEther-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OverTheEther";
+			sourceTree = "<group>";
+		};
+		D2DFD969C64C2AA6D0A278FBDEC706B4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1733AA456CAC82EF17D80D861E0D5614 /* OverTheEther */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F3C4FEA0E36CB081987B9D4DDB387461 /* Pods-OverTheEther_Example */ = {
+			isa = PBXGroup;
+			children = (
+				06A333FF517BF4635C481F44E6CD5F99 /* Info.plist */,
+				3BEB689CE9CDEC0C5691A27F51B563FA /* Pods-OverTheEther_Example.modulemap */,
+				02BF3ED214B882E50548D70DF0C45240 /* Pods-OverTheEther_Example-acknowledgements.markdown */,
+				B5FE41FD00BAC175443471928E86A68A /* Pods-OverTheEther_Example-acknowledgements.plist */,
+				91BEE9EAE17B5BB5D78213AC484D6CE8 /* Pods-OverTheEther_Example-dummy.m */,
+				AFB946AE765955AFDD0790C594DFE18F /* Pods-OverTheEther_Example-frameworks.sh */,
+				0B3C2E327579CA62E21BCC70A5C7799B /* Pods-OverTheEther_Example-resources.sh */,
+				EDA27B31A694CF92F5AB28AB0D1B8D66 /* Pods-OverTheEther_Example-umbrella.h */,
+				6DEF7B8F7B92FE590D939FF88D46B37E /* Pods-OverTheEther_Example.debug.xcconfig */,
+				434A9CF2402FF63E629366903E70E5B8 /* Pods-OverTheEther_Example.release.xcconfig */,
+			);
+			name = "Pods-OverTheEther_Example";
+			path = "Target Support Files/Pods-OverTheEther_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A92ED51E78C6DD604064078BE07C8D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F810BAB9710A7FF72188ADF569B7BCBE /* Pods-OverTheEther_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607CC31A9E9D255BE3F40C9AC1158FC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089F877E840C370F1C85BCA05042A411 /* Pods-OverTheEther_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6D8F0791943759ECD933A8AA0B4CA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4869474787E0E491469B84A88E21B54B /* OverTheEther-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53815A4D201587FFC28949C040D97A0D /* Pods-OverTheEther_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED5B0CD59A6390EFA4DCC414C38D96A /* Build configuration list for PBXNativeTarget "Pods-OverTheEther_Example" */;
+			buildPhases = (
+				949C983753E1BBDDF7587EE8756E04BB /* Sources */,
+				570EEFE2BEC2C21C8CF09513B29E0FC2 /* Frameworks */,
+				2A92ED51E78C6DD604064078BE07C8D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E71C1185B5BD2D7D2E8F033F002A3DB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-OverTheEther_Example";
+			productName = "Pods-OverTheEther_Example";
+			productReference = 517B9753FA109B04908A40254192F051 /* Pods_OverTheEther_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56E50B4A30FFCD2A0EED865F93450EC2 /* Pods-OverTheEther_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4817B3617B7EF453DCBF7DC8B42777AC /* Build configuration list for PBXNativeTarget "Pods-OverTheEther_Tests" */;
+			buildPhases = (
+				D989DA21BB952D572B2FCC1CE7195ADC /* Sources */,
+				703762C1D0566AA276BA04AC8613B3C4 /* Frameworks */,
+				607CC31A9E9D255BE3F40C9AC1158FC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OverTheEther_Tests";
+			productName = "Pods-OverTheEther_Tests";
+			productReference = 4398124D5300DF21D4FB9B2DF130D850 /* Pods_OverTheEther_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B512019919F42B3CCC8A901EED7F4EF4 /* OverTheEther */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A562C7146F6D76DF7CFFF4691B32FE9 /* Build configuration list for PBXNativeTarget "OverTheEther" */;
+			buildPhases = (
+				19D08517F3A61D5EE021010E31543B38 /* Sources */,
+				FC020E259C9EFB4C48FAB528A9612657 /* Frameworks */,
+				7D6D8F0791943759ECD933A8AA0B4CA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverTheEther;
+			productName = OverTheEther;
+			productReference = 2ACBC53861593C19520E0424EFFDB112 /* OverTheEther.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3860D13D737934E49C8C98C589BD650B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B512019919F42B3CCC8A901EED7F4EF4 /* OverTheEther */,
+				53815A4D201587FFC28949C040D97A0D /* Pods-OverTheEther_Example */,
+				56E50B4A30FFCD2A0EED865F93450EC2 /* Pods-OverTheEther_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D08517F3A61D5EE021010E31543B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DCB71F5ACF08B6C0F57A453677271D /* OverTheEther-dummy.m in Sources */,
+				D36373E4B1F06801DE98D52AA49D8084 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949C983753E1BBDDF7587EE8756E04BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C093CBC16408E0985DCB5C1D31F48058 /* Pods-OverTheEther_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D989DA21BB952D572B2FCC1CE7195ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2C2DFC597981C4774B3F578F84525D /* Pods-OverTheEther_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E71C1185B5BD2D7D2E8F033F002A3DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OverTheEther;
+			target = B512019919F42B3CCC8A901EED7F4EF4 /* OverTheEther */;
+			targetProxy = 76B038F03BA31CD5AF462C394CDD59E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F751EB29F1C955FEE295A879AE2AEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434A9CF2402FF63E629366903E70E5B8 /* Pods-OverTheEther_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OverTheEther_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OverTheEther_Example/Pods-OverTheEther_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OverTheEther_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E704D5C754A4C1848807F9FC63BAC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DEF7B8F7B92FE590D939FF88D46B37E /* Pods-OverTheEther_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OverTheEther_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OverTheEther_Example/Pods-OverTheEther_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OverTheEther_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72DA193A28B4B1F45077ADA44F9C1CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8B20EF502C7D88D614D789929231DC /* Pods-OverTheEther_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OverTheEther_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OverTheEther_Tests/Pods-OverTheEther_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OverTheEther_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74B00539794840D7BCB437C8003191FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9DD34E45F27C2A4FAD985003678B49 /* OverTheEther.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OverTheEther/OverTheEther-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OverTheEther/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OverTheEther/OverTheEther.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OverTheEther;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97ACB9F5A94B9EECD69F2414BCD9EED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9DD34E45F27C2A4FAD985003678B49 /* OverTheEther.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OverTheEther/OverTheEther-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OverTheEther/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OverTheEther/OverTheEther.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OverTheEther;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F9FFC359051F08DE3F4EE46F42C2CCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BC41A2B12625476EDED0594C0C6C2D /* Pods-OverTheEther_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OverTheEther_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OverTheEther_Tests/Pods-OverTheEther_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OverTheEther_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4817B3617B7EF453DCBF7DC8B42777AC /* Build configuration list for PBXNativeTarget "Pods-OverTheEther_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DA193A28B4B1F45077ADA44F9C1CF1 /* Debug */,
+				F9FFC359051F08DE3F4EE46F42C2CCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A562C7146F6D76DF7CFFF4691B32FE9 /* Build configuration list for PBXNativeTarget "OverTheEther" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97ACB9F5A94B9EECD69F2414BCD9EED8 /* Debug */,
+				74B00539794840D7BCB437C8003191FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED5B0CD59A6390EFA4DCC414C38D96A /* Build configuration list for PBXNativeTarget "Pods-OverTheEther_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E704D5C754A4C1848807F9FC63BAC40 /* Debug */,
+				2F751EB29F1C955FEE295A879AE2AEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
