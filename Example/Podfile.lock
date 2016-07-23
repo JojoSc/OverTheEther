@@ -1,7 +1,27 @@
 PODS:
-  - OverTheEther (0.1.0)
+  - Bolts/Tasks (1.8.4)
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (2.3.0):
+    - CocoaLumberjack/Extensions
+  - OverTheEther (0.1.0):
+    - CocoaAsyncSocket
+    - CocoaLumberjack/Swift
+    - Parse
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
 
 DEPENDENCIES:
+  - CocoaLumberjack
   - OverTheEther (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +29,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OverTheEther: 87c7d9d18f611a9253d0e29da1bce55c730c4cc8
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  OverTheEther: adfc3707c7c143bdfa668691279ec5884fd38860
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
 
-PODFILE CHECKSUM: 2912d2dd17e6f6f1cf67c5962659c297504abde3
+PODFILE CHECKSUM: ca1003531cc4eb32c0115160dd976c47423920eb
 
 COCOAPODS: 1.1.0.beta.1

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OverTheEther
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // TODO: Insert some sample code
+    func sample() {
+        _ = WifiServer()
+    }
 }
 

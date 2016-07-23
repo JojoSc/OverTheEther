@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OverTheEther'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Send data between devices'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,7 @@ This library allows you to send any kind of data between iOS and macOS devices v
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'CocoaLumberjack/Swift'
+  s.dependency 'CocoaAsyncSocket'
+  s.dependency 'Parse'
 end
