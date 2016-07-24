@@ -26,19 +26,11 @@ Drag all files in the */OverTheEther/Classes* folder into your project. Then ins
 
 <br>
 
-####Important Notice
+### Example
 
-1. You can **only** send objects which implement the **NSCoding protocol**. Many of Apple's own classes (e.g. *NSString*, *NSData*, *UIColor*, *SKSpriteNode* and loads more) already implement NSCoding. You can also send Swift's *Int*, *String*, *[String:String]*(dictionary), etc. types, because they are bridged to Objective-C. If you don't know how to implement NSCoding in your own classes, I suggest this [tutorial](http://nshipster.com/nscoding/). 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-2. When you are sending your **own** classes between two **different applications** (meaning the classes are in differently named modules), you need to prefix these classes with `@objc(ABCSomeClass)`. *ABCSomeClass* can be any name that is unique in the context of Objective-C. Failing to to so will cause NSKeyedUnarchiver to throw an exception. Example:  `
-@objc(FTDSharedName) class SharedClass: NSObject, NSCoding {
-    // Class Implementation
-}`
-
-3. Don't forget to set the delegate property and implement the delegate methods for both the server and the client. 
-
-
----
+<br>
 
 ##How to get Started 
 
@@ -101,6 +93,20 @@ Drag all files in the */OverTheEther/Classes* folder into your project. Then ins
     }
     
 <br>
+
+---
+
+####Important Notice
+
+1. You can **only** send objects which implement the **NSCoding protocol**. Many of Apple's own classes (e.g. *NSString*, *NSData*, *UIColor*, *SKSpriteNode* and loads more) already implement NSCoding. You can also send Swift's *Int*, *String*, *[String:String]*(dictionary), etc. types, because they are bridged to Objective-C. If you don't know how to implement NSCoding in your own classes, I suggest this [tutorial](http://nshipster.com/nscoding/). 
+
+2. When you are sending your **own** classes between two **different applications** (meaning the classes are in differently named modules), you need to prefix these classes with `@objc(ABCSomeClass)`. *ABCSomeClass* can be any name that is unique in the context of Objective-C. Failing to to so will cause NSKeyedUnarchiver to throw an exception. Example:  `
+@objc(FTDSharedName) class SharedClass: NSObject, NSCoding {
+    // Class Implementation
+}`
+
+3. Don't forget to set the delegate property and implement the delegate methods for both the server and the client. 
+
 
 ---
 
