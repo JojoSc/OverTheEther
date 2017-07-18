@@ -1,4 +1,4 @@
-#OverTheEther
+# OverTheEther
 
 ---
 [![Pod](https://img.shields.io/badge/pod-v0.3.2-green.svg)](https://cocoapods.org/pods/OverTheEther)
@@ -7,14 +7,14 @@
 
 ---
 
-###What is this?
+### What is this?
 
 OverTheEther provides a simple way to programmatically send data from one iOS device to another one (or more) nearby. Be it short text messages, objects of custom classes or large image files. OTE uses CocoaAsyncSocket to send data via TCP. One device is configured as the server and others can connect to it as clients. A client can only be connected to one server but a server can be connected to as many clients as there are free ports. You just tell it which device to connect to and send whatever you want.
 
 
 <br>
 
-###Installing
+### Installing
 
 ##### Via CocoaPods (recommended)
 
@@ -32,19 +32,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 <br>
 
-##How to get Started 
+## How to get Started 
 
 
 
 
-####Starting a Server
+#### Starting a Server
 
     let server = Server()
     server.delegate = self    
     server.startServer(name: "ImageSharing", infoDict: nil)
     
     
-####Connecting to a Server
+#### Connecting to a Server
 
     let client = Client()
     client.delegate = self
@@ -57,18 +57,18 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     }
     
     
-####Sending data to a server
+#### Sending data to a server
 
     let someObject = SomeNSCodingClass()
     client.sendObject(someObject)
     
     
-####Sending data to all clients
+#### Sending data to all clients
 
 	let someObject = SomeNSCodingClass()
 	server.broadCastObject(someObject)
     
-####Receiving data on the server side
+#### Receiving data on the server side
 
     //Implement this delegate method
     func didReceiveData(data: AnyObject?, fromClient client:GCDAsyncSocket) {
@@ -85,7 +85,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     }
     
 
-####Receiving data on the client side
+#### Receiving data on the client side
 
 	//Implement this delegate method
 	func didReceiveObjectFromServer(object:AnyObject?) {
@@ -96,7 +96,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ---
 
-####Important Notice
+#### Important Notice
 
 1. You can **only** send objects which implement the **NSCoding protocol**. Many of Apple's own classes (e.g. *NSString*, *NSData*, *UIColor*, *SKSpriteNode* and loads more) already implement NSCoding. You can also send Swift's *Int*, *String*, *[String:String]*(dictionary), etc. types, because they are bridged to Objective-C. If you don't know how to implement NSCoding in your own classes, I suggest this [tutorial](http://nshipster.com/nscoding/). 
 
